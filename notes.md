@@ -62,3 +62,7 @@ to opt out static Rendering
 ## What is streaming?
 
 Streaming is a data transfer technique that allows you to break down a route into smaller "chunks" and progressively stream them from the server to the client as they become ready.
+
+## Best practice: Debouncing
+
+Debouncing is a programming practice that limits the rate at which a function can fire.
