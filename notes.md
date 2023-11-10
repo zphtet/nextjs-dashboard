@@ -66,3 +66,16 @@ Streaming is a data transfer technique that allows you to break down a route int
 ## Best practice: Debouncing
 
 Debouncing is a programming practice that limits the rate at which a function can fire.
+
+## What are Server Actions
+
+React Server Actions allow you to run asynchronous code directly on the server
+They eliminate the need to create API endpoints to mutate your data. Instead, you write asynchronous functions that execute on the server and can be invoked from your Client or Server Components.
+
+- progressive enhancement (form can work without js on the clientside)
+
+> An advantage of invoking a Server Action within a Server Component is progressive enhancement - forms work even if JavaScript is disabled on the client.
+
+server functions can then be imported into Client and Server components, making them extremely versatile.
+
+Behind the scenes, Server Actions create a POST API endpoint. This is why you don't need to create API endpoints manually when using Server Actions.
